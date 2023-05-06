@@ -1,0 +1,19 @@
+body {
+    background-color: #121212;
+}
+
+.btn-grad {
+    background: linear-gradient(121deg, rgba(255,255,255,0.35), rgba(255,255,255,0.2), rgba(255,255,255,0.35));
+    background-size: 200%;
+    border: .12em solid rgba(255,255,255, 0.1);
+    backdrop-filter: blur(0.2em);
+    box-shadow: 0 0 2em 0.1em rgba(0,0,0,.35);
+}
+
+.btn-grad:focus {
+    outline: none;
+}
+
+.btn-grad:hover {
+    background-position: right;
+}
